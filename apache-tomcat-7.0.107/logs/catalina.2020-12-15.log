@@ -1,0 +1,1416 @@
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nom version serveur :              Apache Tomcat/7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Serveur compilé :                  Nov 18 2020 12:18:55 UTC
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version du serveur :               7.0.107.0
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nom de l'OS :                      Windows 10
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version OS :                       10.0
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture :                     amd64
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home :                        C:\Program Files\Java\jdk-11.0.5
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version JVM :                      11.0.5+10-LTS
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Fournisseur de la JVM :            Oracle Corporation
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE :                    C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME :                    C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\conf\logging.properties
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dignore.endorsed.dirs=
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dcatalina.base=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dcatalina.home=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\temp
+déc. 15, 2020 10:43:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Chargement de la librairie Apache Tomcat Native [1.2.25] en utilisant APR version [1.7.0]
+déc. 15, 2020 10:43:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true]
+déc. 15, 2020 10:43:03 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL a été initialisé avec succès [OpenSSL 1.1.1g  21 Apr 2020]
+déc. 15, 2020 10:43:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initialisation du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 599 ms
+déc. 15, 2020 10:43:03 AM org.apache.catalina.core.StandardService startInternal
+INFO: Démarrage du service [Catalina]
+déc. 15, 2020 10:43:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.107
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\docs]
+déc. 15, 2020 10:43:03 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [290] millisecondes
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\docs] de l'application web s'est terminé en [556] ms
+déc. 15, 2020 10:43:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\examples]
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\examples] de l'application web s'est terminé en [277] ms
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\host-manager]
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\host-manager] de l'application web s'est terminé en [50] ms
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\manager]
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\manager] de l'application web s'est terminé en [42] ms
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\ROOT]
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\ROOT] de l'application web s'est terminé en [34] ms
+déc. 15, 2020 10:43:04 AM org.apache.coyote.AbstractProtocol start
+INFO: Démarrage du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:43:04 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1046 ms
+déc. 15, 2020 10:45:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Déploiement de l'archive [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\jenkins.war] de l'application web
+déc. 15, 2020 10:45:26 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+déc. 15, 2020 10:45:29 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Le nom de rôle de sécurité [**] est utilisé dans un <auth-constraint> sans avoir été défini dans <security-role>
+déc. 15, 2020 10:45:29 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+déc. 15, 2020 10:45:29 AM hudson.WebAppMain contextInitialized
+INFO: Jenkins home directory: C:\Users\kenny\.jenkins found at: $user.home/.jenkins
+déc. 15, 2020 10:45:30 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Le déploiement de l'archive de l'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\jenkins.war] s'est terminé en [5 980] ms
+déc. 15, 2020 10:45:30 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+déc. 15, 2020 10:45:30 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+déc. 15, 2020 10:45:32 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+déc. 15, 2020 10:45:32 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Download metadata
+déc. 15, 2020 10:45:32 AM hudson.util.Retrier start
+INFO: Attempt #1 to do the action check updates server
+déc. 15, 2020 10:45:33 AM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+499fb81145794b0da436dcbcd2461c77
+
+This may also be found at: C:\Users\kenny\.jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+déc. 15, 2020 10:45:45 AM org.apache.coyote.AbstractProtocol pause
+INFO: Le gestionnaire de protocole ["http-apr-8080"] est mis en pause
+déc. 15, 2020 10:45:45 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Arrêt du service [Catalina]
+déc. 15, 2020 10:45:45 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Periodic background build discarder
+déc. 15, 2020 10:45:45 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Finished Periodic background build discarder. 1 ms
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins$18 onAttained
+INFO: Started termination
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins$18 onAttained
+INFO: Completed termination
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+déc. 15, 2020 10:45:45 AM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+déc. 15, 2020 10:45:45 AM hudson.WebAppMain contextDestroyed
+INFO: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+	at hudson.WebAppMain.contextDestroyed(WebAppMain.java:450)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5174)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5865)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+déc. 15, 2020 10:45:45 AM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.HudsonFailedToLoad: java.lang.InterruptedException
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+Caused by: java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:328)
+	at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:280)
+	at jenkins.InitReactorRunner.run(InitReactorRunner.java:50)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1162)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:962)
+	at hudson.model.Hudson.<init>(Hudson.java:85)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.WebAppMain$3.run(WebAppMain.java:295)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Download metadata thread] but has failed to stop it. This is very likely to create a memory leak.
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1]] but has failed to stop it. This is very likely to create a memory leak.
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak.
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [org.springframework.security.core.context.SecurityContextImpl] (valeur [SecurityContextImpl [Null authentication]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [jenkins.security.NonSerializableSecurityContext] (valeur [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [jenkins.security.NonSerializableSecurityContext] (valeur [jenkins.security.NonSerializableSecurityContext@1f: Authentication: UsernamePasswordAuthenticationToken [Principal=SYSTEM, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [org.springframework.security.core.context.SecurityContextImpl] (valeur [SecurityContextImpl [Null authentication]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [org.springframework.security.core.context.SecurityContextImpl] (valeur [SecurityContextImpl [Null authentication]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: L'application web [/jenkins] a crée un ThreadLocal avec une clé de type [java.lang.ThreadLocal] (valeur [java.lang.ThreadLocal@7280fd4f]) et une valeur de type [org.springframework.security.core.context.SecurityContextImpl] (valeur [SecurityContextImpl [Null authentication]]) mais ne l'a pas supprimé lorsqu'elle a été arrêtée, les threads seront graduellement renouvelés pour éviter une probable fuite de mémoire
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.lang.GroovyObjectSupportCustomizer], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:575)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	at java.desktop/java.beans.Introspector.findCustomizerClass(Introspector.java:1142)
+	at java.desktop/java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1136)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:461)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3520)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.runtime.metaclass.java.lang.ObjectMetaClass], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1795)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:149)
+	at groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:144)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:259)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3520)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [java.lang.ObjectBeanInfo], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:575)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:94)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.find(InstanceFinder.java:66)
+	at java.desktop/com.sun.beans.finder.BeanInfoFinder.find(BeanInfoFinder.java:41)
+	at java.desktop/java.beans.Introspector.findExplicitBeanInfo(Introspector.java:484)
+	at java.desktop/java.beans.Introspector.<init>(Introspector.java:434)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3520)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [java.lang.ObjectCustomizer], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:575)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	at java.desktop/java.beans.Introspector.findCustomizerClass(Introspector.java:1142)
+	at java.desktop/java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1136)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:461)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3520)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.runtime.metaclass.groovy.lang.GroovyObjectMetaClass], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1795)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:149)
+	at groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:144)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:259)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3540)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3529)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.lang.GroovyObjectBeanInfo], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1795)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:103)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:94)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.find(InstanceFinder.java:66)
+	at java.desktop/com.sun.beans.finder.BeanInfoFinder.find(BeanInfoFinder.java:41)
+	at java.desktop/java.beans.Introspector.findExplicitBeanInfo(Introspector.java:484)
+	at java.desktop/java.beans.Introspector.<init>(Introspector.java:434)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3540)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3529)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.lang.GroovyObjectBeanInfo], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:575)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.instantiate(InstanceFinder.java:94)
+	at java.desktop/com.sun.beans.finder.InstanceFinder.find(InstanceFinder.java:66)
+	at java.desktop/com.sun.beans.finder.BeanInfoFinder.find(BeanInfoFinder.java:41)
+	at java.desktop/java.beans.Introspector.findExplicitBeanInfo(Introspector.java:484)
+	at java.desktop/java.beans.Introspector.<init>(Introspector.java:434)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3540)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3529)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.lang.GroovyObjectCustomizer], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1795)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:103)
+	at java.desktop/java.beans.Introspector.findCustomizerClass(Introspector.java:1142)
+	at java.desktop/java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1136)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:461)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3540)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3529)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Impossible de charger [groovy.lang.GroovyObjectCustomizer], ce chargeur de classes a déjà été arrêté
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1836)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:575)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:67)
+	at java.desktop/com.sun.beans.finder.ClassFinder.findClass(ClassFinder.java:110)
+	at java.desktop/java.beans.Introspector.findCustomizerClass(Introspector.java:1142)
+	at java.desktop/java.beans.Introspector.getTargetBeanDescriptor(Introspector.java:1136)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:461)
+	at java.desktop/java.beans.Introspector.getBeanInfo(Introspector.java:205)
+	at groovy.lang.MetaClassImpl$15.run(MetaClassImpl.java:3313)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3311)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3288)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:260)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:302)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:261)
+	at groovy.lang.MetaClassImpl.searchInterfacesForMetaProperty(MetaClassImpl.java:3540)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3529)
+	at groovy.lang.MetaClassImpl.findPropertyInClassHierarchy(MetaClassImpl.java:3525)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:843)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2750)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3770)
+	at groovy.lang.GroovyObjectSupport.setProperty(GroovyObjectSupport.java:42)
+	at groovy.lang.Binding.setProperty(Binding.java:115)
+	at jenkins.util.groovy.GroovyHookScript.bind(GroovyHookScript.java:64)
+	at hudson.util.BootFailure.publish(BootFailure.java:47)
+	at hudson.WebAppMain$3.run(WebAppMain.java:312)
+
+déc. 15, 2020 10:45:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Arrêt du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:45:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destruction du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:46:29 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005]. Tomcat may not be running.
+déc. 15, 2020 10:46:29 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/java.net.Socket.connect(Socket.java:557)
+	at java.base/java.net.Socket.<init>(Socket.java:453)
+	at java.base/java.net.Socket.<init>(Socket.java:230)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:515)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:330)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:420)
+
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nom version serveur :              Apache Tomcat/7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Serveur compilé :                  Nov 18 2020 12:18:55 UTC
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version du serveur :               7.0.107.0
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nom de l'OS :                      Windows 10
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version OS :                       10.0
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture :                     amd64
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home :                        C:\Program Files\Java\jdk-11.0.5
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Version JVM :                      11.0.5+10-LTS
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Fournisseur de la JVM :            Oracle Corporation
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE :                    C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME :                    C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\conf\logging.properties
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dignore.endorsed.dirs=
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dcatalina.base=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Dcatalina.home=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\temp
+déc. 15, 2020 10:46:31 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Chargement de la librairie Apache Tomcat Native [1.2.25] en utilisant APR version [1.7.0]
+déc. 15, 2020 10:46:31 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Fonctionnalités d'APR : IPv6 [true], sendfile [true], accept filters [false], random [true]
+déc. 15, 2020 10:46:31 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL a été initialisé avec succès [OpenSSL 1.1.1g  21 Apr 2020]
+déc. 15, 2020 10:46:31 AM org.apache.coyote.AbstractProtocol init
+INFO: Initialisation du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 447 ms
+déc. 15, 2020 10:46:31 AM org.apache.catalina.core.StandardService startInternal
+INFO: Démarrage du service [Catalina]
+déc. 15, 2020 10:46:31 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.107
+déc. 15, 2020 10:46:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Déploiement de l'archive [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\jenkins.war] de l'application web
+déc. 15, 2020 10:46:31 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+déc. 15, 2020 10:46:33 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Le nom de rôle de sécurité [**] est utilisé dans un <auth-constraint> sans avoir été défini dans <security-role>
+déc. 15, 2020 10:46:33 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+déc. 15, 2020 10:46:34 AM hudson.WebAppMain contextInitialized
+INFO: Jenkins home directory: C:\Users\kenny\.jenkins found at: $user.home/.jenkins
+déc. 15, 2020 10:46:34 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+déc. 15, 2020 10:46:34 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [326] millisecondes
+déc. 15, 2020 10:46:34 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+déc. 15, 2020 10:46:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Le déploiement de l'archive de l'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\jenkins.war] s'est terminé en [3 396] ms
+déc. 15, 2020 10:46:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\docs]
+déc. 15, 2020 10:46:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\docs] de l'application web s'est terminé en [35] ms
+déc. 15, 2020 10:46:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\examples]
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\examples] de l'application web s'est terminé en [160] ms
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\host-manager]
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\host-manager] de l'application web s'est terminé en [34] ms
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\manager]
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\manager] de l'application web s'est terminé en [35] ms
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Déploiement du répertoire d'application web [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\ROOT]
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Le déploiement du répertoire [C:\Users\kenny\Desktop\Cours\Intégration Continue\apache-tomcat-7.0.107\webapps\ROOT] de l'application web s'est terminé en [27] ms
+déc. 15, 2020 10:46:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Démarrage du gestionnaire de protocole ["http-apr-8080"]
+déc. 15, 2020 10:46:35 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3768 ms
+déc. 15, 2020 10:46:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+déc. 15, 2020 10:46:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+déc. 15, 2020 10:46:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+déc. 15, 2020 10:46:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+déc. 15, 2020 10:46:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+déc. 15, 2020 10:46:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+déc. 15, 2020 10:46:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+déc. 15, 2020 10:46:36 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Download metadata
+déc. 15, 2020 10:46:36 AM hudson.util.Retrier start
+INFO: Attempt #1 to do the action check updates server
+déc. 15, 2020 10:46:36 AM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+499fb81145794b0da436dcbcd2461c77
+
+This may also be found at: C:\Users\kenny\.jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+déc. 15, 2020 10:46:46 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+déc. 15, 2020 10:46:46 AM hudson.util.Retrier start
+INFO: Performed the action check updates server successfully at the attempt #1
+déc. 15, 2020 10:46:46 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Finished Download metadata. 10 845 ms
+déc. 15, 2020 10:46:47 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+déc. 15, 2020 10:46:47 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+déc. 15, 2020 10:50:36 AM hudson.PluginManager install
+INFO: Starting installation of a batch of 21 plugins plus their dependencies
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of trilead-api for plugin antisamy-markup-formatter
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of cloudbees-folder on behalf of admin
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of token-macro for plugin build-timeout
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jaxb for plugin token-macro
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-step-api for plugin token-macro
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of structs for plugin workflow-step-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jdk-tool for plugin structs
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of plain-credentials for plugin credentials-binding
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of credentials for plugin plain-credentials
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of ssh-credentials for plugin credentials-binding
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-api for plugin timestamper
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of scm-api for plugin workflow-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-durable-task-step for plugin ws-cleanup
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of script-security for plugin workflow-durable-task-step
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-support for plugin workflow-durable-task-step
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of durable-task for plugin workflow-durable-task-step
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of matrix-project for plugin ws-cleanup
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of junit for plugin matrix-project
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of bootstrap4-api for plugin junit
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of font-awesome-api for plugin bootstrap4-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of plugin-util-api for plugin font-awesome-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of popper-api for plugin bootstrap4-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jquery3-api for plugin bootstrap4-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jackson2-api for plugin junit
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of snakeyaml-api for plugin jackson2-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of echarts-api for plugin junit
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of display-url-api for plugin junit
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of checks-api for plugin junit
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of resource-disposer for plugin ws-cleanup
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of command-launcher for plugin resource-disposer
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-cps for plugin gradle
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of ace-editor for plugin workflow-cps
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of bouncycastle-api for plugin ace-editor
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-scm-step for plugin workflow-cps
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-job for plugin gradle
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-basic-steps for plugin gradle
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of mailer for plugin workflow-basic-steps
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of apache-httpcomponents-client-4-api for plugin workflow-basic-steps
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-milestone-step for plugin workflow-aggregator
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-view for plugin workflow-aggregator
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-rest-api for plugin pipeline-stage-view
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-graph-analysis for plugin pipeline-rest-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-input-step for plugin pipeline-graph-analysis
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-step for plugin pipeline-graph-analysis
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of handlebars for plugin pipeline-stage-view
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of momentjs for plugin pipeline-stage-view
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-build-step for plugin workflow-aggregator
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-definition for plugin workflow-aggregator
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-extensions for plugin pipeline-model-definition
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-api for plugin pipeline-model-extensions
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-cps-global-lib for plugin pipeline-model-definition
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git-server for plugin workflow-cps-global-lib
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git-client for plugin git-server
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jsch for plugin git-client
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-multibranch for plugin pipeline-model-definition
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of branch-api for plugin workflow-multibranch
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-tags-metadata for plugin pipeline-model-definition
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of lockable-resources for plugin workflow-aggregator
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of github-api for plugin github-branch-source
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of okhttp-api for plugin github-api
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of github for plugin github-branch-source
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git for plugin github
+déc. 15, 2020 10:50:36 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jquery for plugin git-parameter
+déc. 15, 2020 10:50:37 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading cloudbees-folder
+déc. 15, 2020 10:50:38 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: cloudbees-folder
+déc. 15, 2020 10:50:38 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of trilead-api on behalf of admin
+déc. 15, 2020 10:50:39 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading trilead-api
+déc. 15, 2020 10:50:43 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: trilead-api
+déc. 15, 2020 10:50:43 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of antisamy-markup-formatter on behalf of admin
+déc. 15, 2020 10:50:43 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading antisamy-markup-formatter
+déc. 15, 2020 10:50:47 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: antisamy-markup-formatter
+déc. 15, 2020 10:50:47 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jaxb on behalf of admin
+déc. 15, 2020 10:50:48 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jaxb
+déc. 15, 2020 10:50:49 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jaxb
+déc. 15, 2020 10:50:49 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jdk-tool on behalf of admin
+déc. 15, 2020 10:50:50 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jdk-tool
+déc. 15, 2020 10:50:50 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jdk-tool
+déc. 15, 2020 10:50:50 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of structs on behalf of admin
+déc. 15, 2020 10:50:51 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading structs
+déc. 15, 2020 10:50:51 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: structs
+déc. 15, 2020 10:50:51 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-step-api on behalf of admin
+déc. 15, 2020 10:50:52 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-step-api
+déc. 15, 2020 10:50:52 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-step-api
+déc. 15, 2020 10:50:52 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of token-macro on behalf of admin
+déc. 15, 2020 10:50:53 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading token-macro
+déc. 15, 2020 10:50:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: token-macro
+déc. 15, 2020 10:50:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of build-timeout on behalf of admin
+déc. 15, 2020 10:50:55 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading build-timeout
+déc. 15, 2020 10:50:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: build-timeout
+déc. 15, 2020 10:50:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of credentials on behalf of admin
+déc. 15, 2020 10:50:56 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading credentials
+déc. 15, 2020 10:50:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: credentials
+déc. 15, 2020 10:50:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of plain-credentials on behalf of admin
+déc. 15, 2020 10:50:58 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading plain-credentials
+déc. 15, 2020 10:50:58 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: plain-credentials
+déc. 15, 2020 10:50:58 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ssh-credentials on behalf of admin
+déc. 15, 2020 10:50:59 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ssh-credentials
+déc. 15, 2020 10:50:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ssh-credentials
+déc. 15, 2020 10:50:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of credentials-binding on behalf of admin
+déc. 15, 2020 10:51:00 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading credentials-binding
+déc. 15, 2020 10:51:00 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: credentials-binding
+déc. 15, 2020 10:51:00 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of scm-api on behalf of admin
+déc. 15, 2020 10:51:01 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading scm-api
+déc. 15, 2020 10:51:02 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: scm-api
+déc. 15, 2020 10:51:02 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-api on behalf of admin
+déc. 15, 2020 10:51:03 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-api
+déc. 15, 2020 10:51:03 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-api
+déc. 15, 2020 10:51:03 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of timestamper on behalf of admin
+déc. 15, 2020 10:51:04 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading timestamper
+déc. 15, 2020 10:51:05 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: timestamper
+déc. 15, 2020 10:51:05 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of script-security on behalf of admin
+déc. 15, 2020 10:51:06 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading script-security
+déc. 15, 2020 10:51:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: script-security
+déc. 15, 2020 10:51:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-support on behalf of admin
+déc. 15, 2020 10:51:08 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-support
+déc. 15, 2020 10:51:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-support
+déc. 15, 2020 10:51:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of durable-task on behalf of admin
+déc. 15, 2020 10:51:09 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading durable-task
+déc. 15, 2020 10:51:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: durable-task
+déc. 15, 2020 10:51:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-durable-task-step on behalf of admin
+déc. 15, 2020 10:51:16 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-durable-task-step
+déc. 15, 2020 10:51:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-durable-task-step
+déc. 15, 2020 10:51:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of plugin-util-api on behalf of admin
+déc. 15, 2020 10:51:17 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading plugin-util-api
+déc. 15, 2020 10:51:18 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: plugin-util-api
+déc. 15, 2020 10:51:18 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of font-awesome-api on behalf of admin
+déc. 15, 2020 10:51:19 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading font-awesome-api
+déc. 15, 2020 10:51:20 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: font-awesome-api
+déc. 15, 2020 10:51:20 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of popper-api on behalf of admin
+déc. 15, 2020 10:51:21 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading popper-api
+déc. 15, 2020 10:51:21 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: popper-api
+déc. 15, 2020 10:51:21 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jquery3-api on behalf of admin
+déc. 15, 2020 10:51:22 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jquery3-api
+déc. 15, 2020 10:51:23 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jquery3-api
+déc. 15, 2020 10:51:23 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of bootstrap4-api on behalf of admin
+déc. 15, 2020 10:51:23 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading bootstrap4-api
+déc. 15, 2020 10:51:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: bootstrap4-api
+déc. 15, 2020 10:51:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of snakeyaml-api on behalf of admin
+déc. 15, 2020 10:51:25 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading snakeyaml-api
+déc. 15, 2020 10:51:25 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: snakeyaml-api
+déc. 15, 2020 10:51:25 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jackson2-api on behalf of admin
+déc. 15, 2020 10:51:26 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jackson2-api
+déc. 15, 2020 10:51:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jackson2-api
+déc. 15, 2020 10:51:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of echarts-api on behalf of admin
+déc. 15, 2020 10:51:31 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading echarts-api
+déc. 15, 2020 10:51:52 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: echarts-api
+déc. 15, 2020 10:51:52 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of display-url-api on behalf of admin
+déc. 15, 2020 10:51:54 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading display-url-api
+déc. 15, 2020 10:51:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: display-url-api
+déc. 15, 2020 10:51:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of checks-api on behalf of admin
+déc. 15, 2020 10:51:54 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading checks-api
+déc. 15, 2020 10:51:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: checks-api
+déc. 15, 2020 10:51:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of junit on behalf of admin
+déc. 15, 2020 10:51:55 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading junit
+déc. 15, 2020 10:51:56 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: junit
+déc. 15, 2020 10:51:56 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of matrix-project on behalf of admin
+déc. 15, 2020 10:51:57 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading matrix-project
+déc. 15, 2020 10:51:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: matrix-project
+déc. 15, 2020 10:51:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of command-launcher on behalf of admin
+déc. 15, 2020 10:51:58 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading command-launcher
+déc. 15, 2020 10:51:58 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: command-launcher
+déc. 15, 2020 10:51:58 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of resource-disposer on behalf of admin
+déc. 15, 2020 10:51:59 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading resource-disposer
+déc. 15, 2020 10:51:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: resource-disposer
+déc. 15, 2020 10:51:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ws-cleanup on behalf of admin
+déc. 15, 2020 10:52:00 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ws-cleanup
+déc. 15, 2020 10:52:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ws-cleanup
+déc. 15, 2020 10:52:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ant on behalf of admin
+déc. 15, 2020 10:52:09 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ant
+déc. 15, 2020 10:52:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ant
+déc. 15, 2020 10:52:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of bouncycastle-api on behalf of admin
+déc. 15, 2020 10:52:10 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading bouncycastle-api
+déc. 15, 2020 10:52:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: bouncycastle-api
+déc. 15, 2020 10:52:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ace-editor on behalf of admin
+déc. 15, 2020 10:52:17 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ace-editor
+déc. 15, 2020 10:52:23 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ace-editor
+déc. 15, 2020 10:52:23 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-scm-step on behalf of admin
+déc. 15, 2020 10:52:24 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-scm-step
+déc. 15, 2020 10:52:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-scm-step
+déc. 15, 2020 10:52:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-cps on behalf of admin
+déc. 15, 2020 10:52:25 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-cps
+déc. 15, 2020 10:52:26 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-cps
+déc. 15, 2020 10:52:26 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-job on behalf of admin
+déc. 15, 2020 10:52:27 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-job
+déc. 15, 2020 10:52:27 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-job
+déc. 15, 2020 10:52:27 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of mailer on behalf of admin
+déc. 15, 2020 10:52:28 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading mailer
+déc. 15, 2020 10:52:28 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: mailer
+déc. 15, 2020 10:52:28 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of apache-httpcomponents-client-4-api on behalf of admin
+déc. 15, 2020 10:52:29 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading apache-httpcomponents-client-4-api
+déc. 15, 2020 10:52:31 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: apache-httpcomponents-client-4-api
+déc. 15, 2020 10:52:31 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-basic-steps on behalf of admin
+déc. 15, 2020 10:52:32 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-basic-steps
+déc. 15, 2020 10:52:32 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-basic-steps
+déc. 15, 2020 10:52:32 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of gradle on behalf of admin
+déc. 15, 2020 10:52:33 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading gradle
+déc. 15, 2020 10:52:33 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: gradle
+déc. 15, 2020 10:52:33 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-milestone-step on behalf of admin
+déc. 15, 2020 10:52:34 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-milestone-step
+déc. 15, 2020 10:52:34 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-milestone-step
+déc. 15, 2020 10:52:34 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-input-step on behalf of admin
+déc. 15, 2020 10:52:35 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-input-step
+déc. 15, 2020 10:52:35 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-input-step
+déc. 15, 2020 10:52:35 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-stage-step on behalf of admin
+déc. 15, 2020 10:52:36 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-stage-step
+déc. 15, 2020 10:52:36 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-stage-step
+déc. 15, 2020 10:52:36 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-graph-analysis on behalf of admin
+déc. 15, 2020 10:52:37 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-graph-analysis
+déc. 15, 2020 10:52:37 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-graph-analysis
+déc. 15, 2020 10:52:37 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-rest-api on behalf of admin
+déc. 15, 2020 10:52:38 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-rest-api
+déc. 15, 2020 10:52:38 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-rest-api
+déc. 15, 2020 10:52:38 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of handlebars on behalf of admin
+déc. 15, 2020 10:52:39 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading handlebars
+déc. 15, 2020 10:52:39 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: handlebars
+déc. 15, 2020 10:52:39 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of momentjs on behalf of admin
+déc. 15, 2020 10:52:40 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading momentjs
+déc. 15, 2020 10:52:40 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: momentjs
+déc. 15, 2020 10:52:40 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-stage-view on behalf of admin
+déc. 15, 2020 10:52:41 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-stage-view
+déc. 15, 2020 10:52:42 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-stage-view
+déc. 15, 2020 10:52:42 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-build-step on behalf of admin
+déc. 15, 2020 10:52:42 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-build-step
+déc. 15, 2020 10:52:42 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-build-step
+déc. 15, 2020 10:52:42 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-model-api on behalf of admin
+déc. 15, 2020 10:52:43 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-model-api
+déc. 15, 2020 10:52:47 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-model-api
+déc. 15, 2020 10:52:47 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-model-extensions on behalf of admin
+déc. 15, 2020 10:52:48 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-model-extensions
+déc. 15, 2020 10:52:48 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-model-extensions
+déc. 15, 2020 10:52:48 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jsch on behalf of admin
+déc. 15, 2020 10:52:49 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jsch
+déc. 15, 2020 10:52:49 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jsch
+déc. 15, 2020 10:52:49 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of git-client on behalf of admin
+déc. 15, 2020 10:52:50 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading git-client
+déc. 15, 2020 10:52:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: git-client
+déc. 15, 2020 10:52:54 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of git-server on behalf of admin
+déc. 15, 2020 10:52:55 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading git-server
+déc. 15, 2020 10:52:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: git-server
+déc. 15, 2020 10:52:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-cps-global-lib on behalf of admin
+déc. 15, 2020 10:52:56 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-cps-global-lib
+déc. 15, 2020 10:52:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-cps-global-lib
+déc. 15, 2020 10:52:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of branch-api on behalf of admin
+déc. 15, 2020 10:52:58 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading branch-api
+déc. 15, 2020 10:52:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: branch-api
+déc. 15, 2020 10:52:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-multibranch on behalf of admin
+déc. 15, 2020 10:53:00 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-multibranch
+déc. 15, 2020 10:53:00 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-multibranch
+déc. 15, 2020 10:53:00 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-stage-tags-metadata on behalf of admin
+déc. 15, 2020 10:53:01 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-stage-tags-metadata
+déc. 15, 2020 10:53:01 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-stage-tags-metadata
+déc. 15, 2020 10:53:01 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-model-definition on behalf of admin
+déc. 15, 2020 10:53:02 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-model-definition
+déc. 15, 2020 10:53:03 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-model-definition
+déc. 15, 2020 10:53:03 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of lockable-resources on behalf of admin
+déc. 15, 2020 10:53:04 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading lockable-resources
+déc. 15, 2020 10:53:04 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: lockable-resources
+déc. 15, 2020 10:53:04 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of workflow-aggregator on behalf of admin
+déc. 15, 2020 10:53:05 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading workflow-aggregator
+déc. 15, 2020 10:53:05 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: workflow-aggregator
+déc. 15, 2020 10:53:05 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of okhttp-api on behalf of admin
+déc. 15, 2020 10:53:06 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading okhttp-api
+déc. 15, 2020 10:53:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: okhttp-api
+déc. 15, 2020 10:53:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of github-api on behalf of admin
+déc. 15, 2020 10:53:07 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading github-api
+déc. 15, 2020 10:53:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: github-api
+déc. 15, 2020 10:53:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of git on behalf of admin
+déc. 15, 2020 10:53:10 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading git
+déc. 15, 2020 10:53:11 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: git
+déc. 15, 2020 10:53:11 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of github on behalf of admin
+déc. 15, 2020 10:53:12 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading github
+déc. 15, 2020 10:53:12 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: github
+déc. 15, 2020 10:53:12 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of github-branch-source on behalf of admin
+déc. 15, 2020 10:53:13 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading github-branch-source
+déc. 15, 2020 10:53:14 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: github-branch-source
+déc. 15, 2020 10:53:14 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-github-lib on behalf of admin
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pipeline-github-lib
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-github-lib
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pipeline-stage-view on behalf of admin
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Pipeline: Stage View@2.19
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pipeline-stage-view
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of git on behalf of admin
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Git@4.5.0
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: git
+déc. 15, 2020 10:53:15 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ssh-slaves on behalf of admin
+déc. 15, 2020 10:53:16 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ssh-slaves
+déc. 15, 2020 10:53:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ssh-slaves
+déc. 15, 2020 10:53:16 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of matrix-auth on behalf of admin
+déc. 15, 2020 10:53:17 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading matrix-auth
+déc. 15, 2020 10:53:17 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: matrix-auth
+déc. 15, 2020 10:53:17 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of pam-auth on behalf of admin
+déc. 15, 2020 10:53:18 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading pam-auth
+déc. 15, 2020 10:53:20 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: pam-auth
+déc. 15, 2020 10:53:20 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of ldap on behalf of admin
+déc. 15, 2020 10:53:20 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading ldap
+déc. 15, 2020 10:53:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: ldap
+déc. 15, 2020 10:53:24 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of email-ext on behalf of admin
+déc. 15, 2020 10:53:25 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading email-ext
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: email-ext
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of mailer on behalf of admin
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Mailer@1.32.1
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: mailer
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of github on behalf of admin
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: GitHub@1.32.0
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: github
+déc. 15, 2020 10:53:29 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jquery on behalf of admin
+déc. 15, 2020 10:53:30 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jquery
+déc. 15, 2020 10:53:30 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jquery
+déc. 15, 2020 10:53:30 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of git-parameter on behalf of admin
+déc. 15, 2020 10:53:31 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading git-parameter
+déc. 15, 2020 10:53:32 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: git-parameter
+déc. 15, 2020 10:53:32 AM hudson.model.UpdateCenter$CompleteBatchJob run
+INFO: Completing installing of plugin batch…
+déc. 15, 2020 10:53:35 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+déc. 15, 2020 10:53:35 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+déc. 15, 2020 10:53:36 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Periodic background build discarder
+déc. 15, 2020 10:53:36 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Finished Periodic background build discarder. 4 ms
+déc. 15, 2020 10:53:36 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+déc. 15, 2020 10:53:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+déc. 15, 2020 10:53:37 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+déc. 15, 2020 10:53:37 AM hudson.model.UpdateCenter$CompleteBatchJob run
+INFO: Completed installation of 79 plugins in 3 mn 0 s
+déc. 15, 2020 10:59:33 AM hudson.PluginManager install
+INFO: Starting installation of a batch of 5 plugins plus their dependencies
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of javadoc for plugin maven-plugin
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of windows-slaves for plugin dependencyanalyzer
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of javadoc on behalf of Kenny
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of external-monitor-job for plugin dependencyanalyzer
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jquery-detached for plugin github-pullrequest
+déc. 15, 2020 10:59:33 AM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of icon-shim for plugin github-pullrequest
+déc. 15, 2020 10:59:34 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading javadoc
+déc. 15, 2020 10:59:34 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: javadoc
+déc. 15, 2020 10:59:34 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of maven-plugin on behalf of Kenny
+déc. 15, 2020 10:59:35 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading maven-plugin
+déc. 15, 2020 10:59:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: maven-plugin
+déc. 15, 2020 10:59:55 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of windows-slaves on behalf of Kenny
+déc. 15, 2020 10:59:56 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading windows-slaves
+déc. 15, 2020 10:59:56 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: windows-slaves
+déc. 15, 2020 10:59:56 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of external-monitor-job on behalf of Kenny
+déc. 15, 2020 10:59:57 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading external-monitor-job
+déc. 15, 2020 10:59:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: external-monitor-job
+déc. 15, 2020 10:59:57 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of dependencyanalyzer on behalf of Kenny
+déc. 15, 2020 10:59:58 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading dependencyanalyzer
+déc. 15, 2020 10:59:59 AM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created C:\Users\kenny\.jenkins\plugins\dependencyanalyzer\WEB-INF\lib\classes.jar; update plugin to a version created with a newer harness
+déc. 15, 2020 10:59:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: dependencyanalyzer
+déc. 15, 2020 10:59:59 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of maven-dependency-update-trigger on behalf of Kenny
+déc. 15, 2020 11:00:00 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading maven-dependency-update-trigger
+déc. 15, 2020 11:00:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: maven-dependency-update-trigger
+déc. 15, 2020 11:00:07 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of maven-metadata-plugin on behalf of Kenny
+déc. 15, 2020 11:00:08 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading maven-metadata-plugin
+déc. 15, 2020 11:00:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: maven-metadata-plugin
+déc. 15, 2020 11:00:08 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of jquery-detached on behalf of Kenny
+déc. 15, 2020 11:00:09 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading jquery-detached
+déc. 15, 2020 11:00:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: jquery-detached
+déc. 15, 2020 11:00:09 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of icon-shim on behalf of Kenny
+déc. 15, 2020 11:00:10 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading icon-shim
+déc. 15, 2020 11:00:10 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: icon-shim
+déc. 15, 2020 11:00:10 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of github-pullrequest on behalf of Kenny
+déc. 15, 2020 11:00:11 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading github-pullrequest
+déc. 15, 2020 11:00:12 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: github-pullrequest
+déc. 15, 2020 11:00:12 AM hudson.model.UpdateCenter$CompleteBatchJob run
+INFO: Completing installing of plugin batch…
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+déc. 15, 2020 11:00:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+déc. 15, 2020 11:00:13 AM hudson.model.UpdateCenter$CompleteBatchJob run
+INFO: Completed installation of 10 plugins in 40 s
+déc. 15, 2020 11:53:36 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Periodic background build discarder
+déc. 15, 2020 11:53:36 AM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Finished Periodic background build discarder. 3 ms
+déc. 15, 2020 12:53:36 PM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Started Periodic background build discarder
+déc. 15, 2020 12:53:36 PM hudson.model.AsyncPeriodicWork lambda$doRun$0
+INFO: Finished Periodic background build discarder. 1 ms

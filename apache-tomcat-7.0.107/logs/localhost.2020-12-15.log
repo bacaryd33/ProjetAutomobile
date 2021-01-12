@@ -1,0 +1,24 @@
+déc. 15, 2020 10:43:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+déc. 15, 2020 10:43:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+déc. 15, 2020 10:43:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4e26ab81')
+déc. 15, 2020 10:43:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@196b4d0')
+déc. 15, 2020 10:45:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+déc. 15, 2020 10:45:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+déc. 15, 2020 10:45:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+déc. 15, 2020 10:46:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+déc. 15, 2020 10:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+déc. 15, 2020 10:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+déc. 15, 2020 10:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@12977d94')
+déc. 15, 2020 10:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4324f30c')
